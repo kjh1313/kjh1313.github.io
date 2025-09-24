@@ -1,9 +1,2 @@
 # 제출용 압축파일 무시
 *.zip
-
-# macOS/Windows 시스템 파일 무시
-.DS_Store
-Thumbs.db
-
-# VSCode 세팅 파일 무시 (원하면 커밋해도 됨)
-.vscode/
