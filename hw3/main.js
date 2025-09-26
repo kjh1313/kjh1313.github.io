@@ -113,7 +113,7 @@ function computeIntersections() {
 
     const disc = b * b - 4 * a * c;
     if (disc < 0) {
-        updateText(textIntersections, "Intersection Points: None");
+        updateText(textIntersections, "No intersection");
         return;
     }
 
@@ -130,7 +130,7 @@ function computeIntersections() {
             intersections.map((p, i) => `Point ${i+1}: (${p[0].toFixed(2)}, ${p[1].toFixed(2)})`).join(" ")
         );
     } else {
-        updateText(textIntersections, "Intersection Points: None (segment outside circle)");
+        updateText(textIntersections, "No intersection");
     }
 }
 

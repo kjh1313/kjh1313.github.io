@@ -35,7 +35,7 @@ export function setupText(canvas, initialText, line = 1) {
     // 새로운 텍스트 오버레이 생성
     const overlay = document.createElement('div');
     overlay.id = 'textOverlay';
-    overlay.style.position = 'fixed';
+    overlay.style.position = 'absolute';
     overlay.style.left = canvas.offsetLeft + 10 + 'px';
     overlay.style.top = canvas.offsetTop + (20 * (line - 1) + 10) + 'px';
     overlay.style.color = 'white';
