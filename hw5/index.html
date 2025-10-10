@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>10_CameraCircle - Square Pyramid</title>
+  <style>
+    body {
+      background-color: #1e2b3a; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    canvas {
+      border: 1px solid #444;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="glCanvas" width="700" height="700"></canvas>
+
+  <!-- ✅ glMatrix 먼저 로드 -->
+  <script src="https://cdn.jsdelivr.net/npm/gl-matrix@3.4.3/gl-matrix-min.js"></script>
+
+  <!-- ✅ main 스크립트는 나중에 -->
+  <script type="module" src="./CameraCircle.js"></script>
+</body>
+</html>
